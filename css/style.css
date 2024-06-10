@@ -16,7 +16,7 @@
 }
 
 .header-nav {
-    width: 40%;
+    width: 50%;
     margin: 0 auto;
     background-color: #DAA520;
     display: flex;
@@ -24,7 +24,7 @@
 }
 
 .login, .logo {
-    border: 1px dashed black;
+    border: 2px dashed black;
     width: 25%;
     padding: 5px;
 }
@@ -35,7 +35,7 @@
 }
 
 .nav-links {
-    border: 1px dashed black;
+    border: 2px dashed black;
     width: 75%;
     padding: 5px;
     display: flex;
@@ -60,7 +60,7 @@ header .nav-links a {
     height: 250px;
     background-color:#EE82EE;
     margin: 0 auto;
-    border: 1px dashed black;
+    border: 2px dashed black;
 }
 
     /* MAIN */
@@ -83,14 +83,14 @@ header .nav-links a {
     width: 60%;
     min-height: 350px;
     background-color: #1E90FF;
-    border: 1px dashed black;
+    border: 2px dashed black;
 }
 
 .container1 div:last-child {
     width: 40%;
     min-height: 350px;
     background-color: #FFC0CB;
-    border: 1px dashed black;
+    border: 2px dashed black;
 }
 
     /* SECTION 2 */
@@ -111,14 +111,14 @@ header .nav-links a {
     width: 40%;
     min-height: 350px;
     background-color: #FFC0CB;
-    border: 1px dashed black;
+    border: 2px dashed black;
 }
 
 .container2 div:last-child {
     width: 60%;
     min-height: 350px;
     background-color: #1E90FF;
-    border: 1px dashed black;
+    border: 2px dashed black;
 }
 
     /* SECTION 3 */
@@ -134,9 +134,93 @@ header .nav-links a {
     min-height: 600px;
     margin: 0 auto;
     background-color: #228B22;
-    border: 1px dashed black;
+    border: 2px dashed black;
+}
+
+
+    /* FOOTER PARTE 1 */
+
+footer {
+    background-color: #23272A;
+    padding-top: 10px;
+}
+
+.footer-container {
+    display: flex;
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.footer1 {
+    display: flex;
+    width: 30%;
+    background-color: #F08080;
+    border: 2px dashed black;
+}
+
+.footer2 {
+    display: flex;
+    width: 70%;
+    border: 2px dashed black;
+}
+
+.footer2-1 {
+    background-color: #20B2AA;
+    width: 25%;
+    border: 2px dashed white;
+}
+
+.footer2-2 {
+    background-color: #20B2AA;
+    width: 25%;
+    border: 2px dashed white;
+}
+
+.footer2-3 {
+    background-color: #20B2AA;
+    width: 25%;
+    border: 2px dashed white;
+}
+
+.footer2-4 {
+    background-color: #20B2AA;
+    width: 25%;
+    border: 2px dashed white;
+}
+
+ 
+    /* LINEA HR */
+
+hr {
+    margin: 20px 0px 0px 0px;
 }    
-    
+
+    /* FOOTER PARTE 2 */
+
+
+.footer-container2 {
+    display: flex;
+    width: 800px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #7FFFD4;
+    justify-content: space-between;
+    align-items: center;
+}   
+
+.footer-logo {
+    border: 2px dashed black;
+    background-color: #FFC0CB;
+    padding: 3px 10px 3px 10px;
+}
+
+.footer-bottone {
+    border: 2px dashed black;
+    background-color: #FFC0CB;
+    padding: 3px 10px 3px 10px;
+}
 
 
 
