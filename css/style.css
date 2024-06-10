@@ -8,7 +8,72 @@
 
     /* GENERAL */
 
-.container {
-    max-width: 1000px;
+
+
+    /* HEADER */
+
+.header-container {
+    background-color: #ADD8E6;
+    min-height: 400px;
+    padding-top: 20px;
+}
+
+.header-nav {
+    width: 40%;
     margin: 0 auto;
-}  
+    background-color: #DAA520;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.login, .logo {
+    border: 1px dashed black;
+    width: 25%;
+    padding: 5px;
+}
+
+.login {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-links {
+    border: 1px dashed black;
+    width: 75%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+header .nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-content {
+    min-height: 325px;
+    background-color: #00008B;
+    width: 100%;
+    padding-top: 35px;
+}
+
+.header-main {
+    width: 600px;
+    height: 250px;
+    background-color:#EE82EE;
+    margin: 0 auto;
+    border: 1px dashed black;
+}
+
+    /* /HEADER */
+
+
+
+
+    
+
+
+
+
+
