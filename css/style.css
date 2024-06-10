@@ -6,9 +6,6 @@
     box-sizing: border-box;
 }
 
-    /* GENERAL */
-
-
 
     /* HEADER */
 
@@ -66,7 +63,82 @@ header .nav-links a {
     border: 1px dashed black;
 }
 
-    /* /HEADER */
+    /* MAIN */
+
+
+    /* SECTION 1 */
+
+.section-container1 {
+    padding-bottom: 25px;
+}
+
+.container1 {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 25px;
+}
+
+.container1 div:first-of-type {
+    width: 60%;
+    min-height: 350px;
+    background-color: #1E90FF;
+    border: 1px dashed black;
+}
+
+.container1 div:last-child {
+    width: 40%;
+    min-height: 350px;
+    background-color: #FFC0CB;
+    border: 1px dashed black;
+}
+
+    /* SECTION 2 */
+
+.section-container2 {
+    background-color: #D3D3D3;
+    padding-bottom: 25px;
+}
+
+.container2 {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 25px;
+}
+
+.container2 div:first-of-type {
+    width: 40%;
+    min-height: 350px;
+    background-color: #FFC0CB;
+    border: 1px dashed black;
+}
+
+.container2 div:last-child {
+    width: 60%;
+    min-height: 350px;
+    background-color: #1E90FF;
+    border: 1px dashed black;
+}
+
+    /* SECTION 3 */
+
+.section-container3 {
+    background-color: #D3D3D3;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    }
+
+.container3 {
+    width: 800px;
+    min-height: 600px;
+    margin: 0 auto;
+    background-color: #228B22;
+    border: 1px dashed black;
+}    
+    
+
+
 
 
 
